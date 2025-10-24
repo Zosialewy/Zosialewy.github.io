@@ -1,18 +1,20 @@
 p{
 
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: x-large;
     font-weight: 900;
     
 }
-
 body{
 
-    background-color: rgb(18, 2, 165);
+    background-color: rgb(165, 2, 10);
+    max-width: 700px;
+    margin: auto;
 }
 
-div
+h2
 {
-
-    max-width: 700px;
+    color: rgb(32, 31, 31);
+    font-size: xx-large;
+  
 }
