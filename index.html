@@ -3,8 +3,8 @@
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-<link rel="stylesheet" href="style.css"></head>
+    <link rel="stylesheet" href="./index_files/style.css">
+</head>
 <body>
     <table align="center" width="600" <tr="">
         <tbody><tr><td>
@@ -24,7 +24,7 @@
 
 
 
-        <p> <i>Wielu ludzi uważa, że taniec towarzyski to nie sport.</i> Jednak myślą tak tylko ci, którzy niegdy go nie trenowali. Taniec potrafi być wyczerpujący i nawet po krótkim czasie można mieć zakwasy. Taniec towarzyski dzieli się na dwie główne grupy: tańce standardowe i tańce latynoamerykańskie. W obu tańczy się w parze. </p>   <img src="./index1_files/tt.webp" alt="">
+        <p> <i>Wielu ludzi uważa, że taniec towarzyski to nie sport.</i> Jednak myślą tak tylko ci, którzy niegdy go nie trenowali. Taniec potrafi być wyczerpujący i nawet po krótkim czasie można mieć zakwasy. Taniec towarzyski dzieli się na dwie główne grupy: tańce standardowe i tańce latynoamerykańskie. W obu tańczy się w parze. </p>   <img src="./index_files/tt.webp" alt="">
         <p>Te pierwsze są raczej spokojne, poważne i wymagają dużego skupienia i opanowania. Zalicza się do nich między innymi: walc angielski, fokstrot, tango, walc wiedeński i quickstep. Można je kojarzyć z filmów, w których akcja dzieje się wiele set lat temu. Te czasy można uznać za początki tańców standardowych. Arystokracja spotykała się na balach i tańczyła te same tańce, które w obecnych czasach można oglądać na turniejach. Chociaż niektóre aspekty takie jak postawa tancerza czy niektóre kroki różnią się od wspólczesnych, to całość tańca pozostała ta sama. Zazwyczaj na występy kobieta zakłada długą suknie i upina włosy w ciasny kok, warkocz lub inną fryzurę tak, żeby nie przeszkadzały w tańcu. Profesjonalne tancerki występują w butach z niewielką szpilką. Muszą być wygodne i dobrze dopasowane, ponieważ bardzo łatwo o skręcenie kostki. Mężczyzni oryginalnie zakładali frak, jednak coraz częściej można zobaczyć ich w eleganckich garniturach i przylizanych na żel włosach. Na nogach mają specjalne buty z małym obcasem. Im wyższy poziom tancerzy, tym można dodawać więcej figur i kroków, które bardzo dużo znaczą dla jurorów.</p>
         
         <p>Druga grupa, czyli tańce latynoamerykańskie takie jak: samba, rumba, cha-cha, pasodoble, jive, salsa są dużo bardziej skoczne, dynamiczne i szybsze. Początki mają w 19 wieku chociaż głównie rozwineły się w 20 wieku. Pochodzą z Ameryki Środkowej, chociaż w ich ewolucje miały udział także Stany Zjednoczone. Tam powstał m. in. jive. Ubiór różni się w tej grupie. Kobieta zakłada krótszą sukienkę w jaskrawych kolorach, często z różnymi dodatkami np. frędzlami. Mężczyzna już nie musi ubierać fraka ani garnituru, jedynie musi pozostać kolorystycznie dopasowany ubraniem do partnerki. Buty są te same co w standardowych. Kiedy ktoś chce tańczyć sportowo, czyli brać udział w turniejach, jeździć na występy i zarabiać na tym pieniądze, musi przechodzić do jak najwyższej. Są to kolejno od najsłabszej: E, D, C, B, A i najlepsza S. </p>
@@ -80,4 +80,42 @@
 
 
        
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body></html>
